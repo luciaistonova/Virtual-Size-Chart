@@ -93,10 +93,28 @@
   display: flex;
 }
 
-.choose-brand {
+.choose-product {
   align-self: center;
   font-size: 8px;
 }
+.products{
+
+    width: 100%;
+    background-color: #5f5cd066;
+    flex-direction: row;
+    flex-basis: 18%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;;
+    padding-left: 2px;
+    font-size: .563rem;
+    font-weight: 500;
+   display: flex;
+  }
+
+
 
 .rectangle-3 {
   width: 104px;
@@ -119,25 +137,15 @@
 }
 
 /* Style for the Snap and Close Buttons */
-button {
+.SNAP {
   margin: 10px;
-  font-size: 16px;
-  background-color: #ff0606;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 100px;
   cursor: pointer;
-  position: fixed;
-  top:410px;
-  left:580px;
-  right:580px;
+  position: relative;
+  
 }
 .close-button{
   display: none;
   margin: 10px;
-  font-size: 10px;
-
   cursor: pointer;
   position: fixed;
   top:0px;
@@ -169,9 +177,41 @@ img {
   line-height: 11px;
   display: flex;
 }
-img-container {
+.img-container {
   position: relative;
 }
+.add-manually-button{
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  top:0px;
+}
 
-
-
+.product-1{
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  align-self: center;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+.product-3{
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  align-self: flex-start;
+}
+.product-5{
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  align-self: center;
+  margin-top: 10px;
+  margin-left: 2px;
+}
